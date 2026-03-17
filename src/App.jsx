@@ -1,16 +1,13 @@
+import styled from "styled-components";
 
-const fundoGradiente = () => {
-  return (
-    <h1> SPACE APP </h1>
-  );
-};
+const FundoGradiente = styled.div``;
 
 function App() {
 
   return (
-    <>
+    <FundoGradiente>
 
-    </>
+    </FundoGradiente>
   )
 }
 
