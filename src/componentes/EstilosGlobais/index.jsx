@@ -84,6 +84,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
 }
 button::-moz-focus-inner,
@@ -126,6 +127,7 @@ textarea {
   height: auto;
 }
 [type="search"] {
+  appearance: textfield;
   -webkit-appearance: textfield; 
   outline-offset: -2px; 
 }
