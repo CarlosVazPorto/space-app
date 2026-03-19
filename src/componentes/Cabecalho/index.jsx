@@ -12,9 +12,12 @@ const HeaderEstilizado = styled.header`
 
 const Cabecalho = () => {
     return (
-        <HeaderEstilizado>
-            <img src="/imagens/logo.png" alt="Logo do site" />
-        </HeaderEstilizado>
+        <>
+            <HeaderEstilizado>
+                <img src="/imagens/logo.png" alt="Logo do site" />
+            </HeaderEstilizado>
+            <CampoTexto />
+        </>
     );
 };
 
