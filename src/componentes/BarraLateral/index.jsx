@@ -46,7 +46,7 @@ const BarraLateral = () => {
                         iconeInativo="/icones/surpreenda-me-inativo.png"
                         ativo
                     >
-                        Surpeenda-me
+                        Surpreenda-me
                     </ItemNavegacao>
                 </ListaEstilizada>
             </nav>
