@@ -14,37 +14,37 @@ const BarraLateral = () => {
             <nav>
                 <ListaEstilizada>
                     <ItemNavegacao
-                        iconeAtivo="/icones/home-ativo.png"
-                        iconeInativo="/icones/home-inativo.png"
-                        ativo={true}
+                        iconeAtivo="/icones/home-ativo.png" 
+                        iconeInativo="/icones/home-inativo.png" 
+                        ativo={true} 
                     >
                         Início
                     </ItemNavegacao>
                     <ItemNavegacao
-                        iconeAtivo="/icones/mais-vistas-ativo.png"
-                        iconeInativo="/icones/mais-vistas-inativo.png"
-                        ativo
+                        iconeAtivo="/icones/mais-vistas-ativo.png" 
+                        iconeInativo="/icones/mais-vistas-inativo.png" 
+                        ativo 
                     >
                         Mais vistas
                     </ItemNavegacao>
                     <ItemNavegacao
-                        iconeAtivo="/icones/mais-curtidas-ativo.png"
-                        iconeInativo="/icones/mais-curtidas-inativo.png"
-                        ativo
+                        iconeAtivo="/icones/mais-curtidas-ativo.png" 
+                        iconeInativo="/icones/mais-curtidas-inativo.png" 
+                        ativo 
                     >
                         Mais curtidas
                     </ItemNavegacao>
                     <ItemNavegacao
-                        iconeAtivo="/icones/novas-ativo.png"
-                        iconeInativo="/icones/novas-inativo.png"
-                        ativo
+                        iconeAtivo="/icones/novas-ativo.png" 
+                        iconeInativo="/icones/novas-inativo.png" 
+                        ativo 
                     >
                         Novas
                     </ItemNavegacao>
                     <ItemNavegacao
-                        iconeAtivo="/icones/surpreenda-me-ativo.png"
-                        iconeInativo="/icones/surpreenda-me-inativo.png"
-                        ativo
+                        iconeAtivo="/icones/surpreenda-me-ativo.png" 
+                        iconeInativo="/icones/surpreenda-me-inativo.png" 
+                        ativo 
                     >
                         Surpreenda-me
                     </ItemNavegacao>
