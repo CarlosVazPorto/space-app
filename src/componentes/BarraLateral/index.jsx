@@ -12,31 +12,7 @@ const BarraLateral = () => {
         <aside>
             <nav>
                 <ListaEstilizada>
-                    <li>
-                        <a href="">
-                            Início
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="">
-                            Mais visitas
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="">
-                            Mais curtidas
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="">
-                            Novas
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="">
-                            Surpreenda-me
-                        </a> 
-                    </li>
+
                 </ListaEstilizada>
             </nav>
         </aside>
