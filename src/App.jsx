@@ -4,6 +4,7 @@ import Cabecalho from "./componentes/Cabecalho";
 import BarraLateral from "./componentes/BarraLateral";
 import Banner from "./componentes/Banner";
 import bannerBackground from "./assets/banner.png";
+import Galeria from "./componentes/Galeria";
 
 const FundoGradiente = styled.div`
 /* Gradiente fundo */
@@ -37,6 +38,7 @@ function App() {
             texto="A galeria mais completa de fotos do espaço!" 
             backgroundImage={ bannerBackground }
           />
+          <Galeria />
         </MainContainer>
       </AppContainer>
     </FundoGradiente>
