@@ -6,18 +6,23 @@ import Banner from "./componentes/Banner";
 import bannerBackground from "./assets/banner.png";
 
 const FundoGradiente = styled.div`
-
 /* Gradiente fundo */
-background: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
-width: 100%;
-min-height: 100vh;
-
+  background: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
+  width: 100%;
+  min-height: 100vh;
 `;
 
 const AppContainer = styled.div`
-width: 1440px;
-margin: 0 auto;
-max-width: 100%;
+/* Container geral do aplicativo */
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
+`;
+
+const MainContainer = styled.main`
+/* Conteúdo principal */
+  display: flex;
+  gap: 24px;
 `;
 
 function App() {
@@ -27,11 +32,13 @@ function App() {
       <EstilosGlobais />
       <AppContainer>
         <Cabecalho />
-        <BarraLateral />
-        <Banner 
-          texto="A galeria mais completa de fotos do espaço!" 
-          backgroundImage={ bannerBackground }
-        />
+        <MainContainer>
+          <BarraLateral />
+          <Banner 
+            texto="A galeria mais completa de fotos do espaço!" 
+            backgroundImage={ bannerBackground }
+          />
+        </MainContainer>
       </AppContainer>
     </FundoGradiente>
   );
