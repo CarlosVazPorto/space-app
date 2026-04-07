@@ -26,7 +26,6 @@ const MainContainer = styled.main`
 `;
 
 function App() {
-
   return (
     <FundoGradiente>
       <EstilosGlobais />
