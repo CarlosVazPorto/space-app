@@ -5,7 +5,12 @@ const Galeria = () => {
     return (
         <>
             <Tags />
-            <Titulo>Navegue pela galeria</Titulo>
+            <GaleriaContainer>
+                <SecaoFluida>
+                    <Titulo>Navegue pela galeria</Titulo>
+                </SecaoFluida>
+                <Populares />
+            </GaleriaContainer>
         </>
     );
 };
