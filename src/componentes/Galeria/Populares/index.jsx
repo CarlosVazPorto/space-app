@@ -1,6 +1,10 @@
+import Titulo from "../../Titulo";
+
 const Populares = () => {
     return (
-        <p>Populares</p>
+        <Titulo $alinhamento="center">
+            Populares
+        </Titulo>
     );
 };
 
