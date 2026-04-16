@@ -6,6 +6,7 @@ import Banner from "./componentes/Banner";
 import bannerBackground from "./assets/banner.png";
 import Galeria from "./componentes/Galeria";
 import fotos from "./fotos.json";
+import { useState } from "react";
 
 const FundoGradiente = styled.div`
 /* Gradiente fundo */
@@ -35,6 +36,8 @@ const ConteudoGaleria = styled.section`
 `;
 
 const App = () => {
+  const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
+  
   return (
     <FundoGradiente>
       <EstilosGlobais />
