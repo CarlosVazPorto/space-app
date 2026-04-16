@@ -33,6 +33,12 @@ const Figure = styled.figure`
     }
 `;
 
+const Rodape = styled.footer`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
 const Imagem = ({ foto }) => {
     return (
         <figure>
