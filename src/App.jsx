@@ -5,6 +5,7 @@ import BarraLateral from "./componentes/BarraLateral";
 import Banner from "./componentes/Banner";
 import bannerBackground from "./assets/banner.png";
 import Galeria from "./componentes/Galeria";
+import fotos from "./fotos.json";
 
 const FundoGradiente = styled.div`
 /* Gradiente fundo */
