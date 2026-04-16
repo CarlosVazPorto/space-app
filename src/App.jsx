@@ -37,7 +37,7 @@ const ConteudoGaleria = styled.section`
 
 const App = () => {
   const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
-  
+
   return (
     <FundoGradiente>
       <EstilosGlobais />
@@ -50,7 +50,9 @@ const App = () => {
               texto="A galeria mais completa de fotos do espaço!" 
               backgroundImage={ bannerBackground }
             />
-            <Galeria />
+            <Galeria 
+              fotos={ fotosDaGaleria }
+            />
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
