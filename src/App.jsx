@@ -54,6 +54,7 @@ const App = () => {
             />
             <Galeria 
               fotos={ fotosDaGaleria }
+              aoSelecionarFoto={ (foto) => setFotoSelecionada(foto) }
             />
           </ConteudoGaleria>
         </MainContainer>
