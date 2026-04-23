@@ -1,7 +1,7 @@
-const ModalZoom = () => {
+const ModalZoom = ({ foto }) => {
     return (
         <>
-            <dialog open>
+            <dialog open={!!foto}>
                 <p>Greetings, one and all!</p>
                 <form method="dialog">
                     <button>Ok</button>

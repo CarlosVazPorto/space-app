@@ -38,6 +38,7 @@ const ConteudoGaleria = styled.section`
 
 const App = () => {
   const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
+  const [fotoSelecionada, setFotoSelecionada] = useState(null);
 
   return (
     <FundoGradiente>
@@ -57,7 +58,9 @@ const App = () => {
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
-      <ModalZoom />
+      <ModalZoom 
+        foto={ fotoSelecionada }
+      />
     </FundoGradiente>
   );
 };
