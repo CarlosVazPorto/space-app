@@ -13,6 +13,19 @@ const Imagem = styled.img`
     border-radius: 20px;
 `;
 
+const Botao = styled.button`
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid;
+    border-color: #C98CF1;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 16px;
+`;
+
 const Populares = () => {
     return (
         <Titulo $alinhamento="center">
