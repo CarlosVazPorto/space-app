@@ -28,9 +28,23 @@ const Botao = styled.button`
 
 const Populares = () => {
     return (
-        <Titulo $alinhamento="center">
-            Populares
-        </Titulo>
+        <section>
+            <Titulo $alinhamento="center">
+                Populares
+            </Titulo>
+            <ColunaFotos>
+                {fotos.map((foto) => 
+                    <Imagem 
+                        key={foto.id} 
+                        src={foto.path} 
+                        alt={foto.alt} 
+                    />
+                )}
+            </ColunaFotos>
+            <Botao>
+                Ver mais
+            </Botao>
+        </section>
     );
 };
 
