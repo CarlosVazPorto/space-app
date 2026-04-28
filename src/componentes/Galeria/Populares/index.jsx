@@ -1,4 +1,12 @@
+import { styled } from "styled-components";
 import Titulo from "../../Titulo";
+import fotos from "../../Titulo";
+
+const ColunaFotos = styled.section`
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+`;
 
 const Populares = () => {
     return (
