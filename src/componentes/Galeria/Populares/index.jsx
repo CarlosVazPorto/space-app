@@ -8,6 +8,11 @@ const ColunaFotos = styled.section`
     gap: 16px;
 `;
 
+const Imagem = styled.img`
+    max-width: 212px;
+    border-radius: 20px;
+`;
+
 const Populares = () => {
     return (
         <Titulo $alinhamento="center">
