@@ -72,6 +72,7 @@ const App = () => {
       <ModalZoom 
         foto={ fotoSelecionada }
         aoFechar={() => setFotoSelecionada(null)}
+        aoAlternarFavorito={aoAlternarFavorito}
       />
     </FundoGradiente>
   );
