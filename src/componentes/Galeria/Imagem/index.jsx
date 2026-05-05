@@ -40,6 +40,11 @@ const Rodape = styled.footer`
 `;
 
 const Imagem = ({ foto, expandida = false, aoSolicitarZoom, aoAlternarFavorito }) => {
+    
+    const iconeFavorito = foto.favorita ? 
+        "/icones/favorito-ativo.png" :
+        "/icones/favorito.png";
+    
     return (
         <Figure $expandida={expandida} id={`foto-${foto.id}`}>
             <img src={foto.path} alt={foto.alt} />
@@ -50,7 +55,7 @@ const Imagem = ({ foto, expandida = false, aoSolicitarZoom, aoAlternarFavorito }
                     <BotaoIcone
                         onClick={() => aoAlternarFavorito(foto)}
                     >
-                        <img src="/icones/favorito.png" alt="Icone de favorito" />
+                        <img src={iconeFavorito} alt="Icone de favorito" />
                     </BotaoIcone>
                     {!expandida && 
                         <BotaoIcone 
