@@ -48,7 +48,7 @@ const Imagem = ({ foto, expandida = false, aoSolicitarZoom, aoAlternarFavorito }
                 <Rodape>
                     <h4>{foto.fonte}</h4>
                     <BotaoIcone
-                        onClick={(foto) => aoAlternarFavorito(foto)}
+                        onClick={() => aoAlternarFavorito(foto)}
                     >
                         <img src="/icones/favorito.png" alt="Icone de favorito" />
                     </BotaoIcone>
