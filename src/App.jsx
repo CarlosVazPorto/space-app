@@ -58,6 +58,7 @@ const App = () => {
             />
             <Galeria 
               fotos={ fotosDaGaleria }
+              aoAlternarFavorito={aoAlternarFavorito}
               aoSelecionarFoto={ (foto) => setFotoSelecionada(foto) }
             />
           </ConteudoGaleria>
