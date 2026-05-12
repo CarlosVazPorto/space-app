@@ -33,7 +33,7 @@ const Figure = styled.figure`
     }
 `;
 
-const Rodape = styled.footer`
+const RodapeDaFoto = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ const Imagem = ({ foto, expandida = false, aoSolicitarZoom, aoAlternarFavorito }
             <img src={foto.path} alt={foto.alt} />
             <figcaption>
                 <h3>{foto.titulo}</h3>
-                <Rodape>
+                <RodapeDaFoto>
                     <h4>{foto.fonte}</h4>
                     <BotaoIcone
                         onClick={() => aoAlternarFavorito(foto)}
@@ -68,7 +68,7 @@ const Imagem = ({ foto, expandida = false, aoSolicitarZoom, aoAlternarFavorito }
                             />
                         </BotaoIcone>
                     }
-                </Rodape>
+                </RodapeDaFoto>
             </figcaption>
         </Figure>
     );
