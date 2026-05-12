@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/set-state-in-effect */
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import EstilosGlobais from "./componentes/EstilosGlobais";
 import Cabecalho from "./componentes/Cabecalho";
@@ -6,9 +7,9 @@ import BarraLateral from "./componentes/BarraLateral";
 import Banner from "./componentes/Banner";
 import bannerBackground from "./assets/banner.png";
 import Galeria from "./componentes/Galeria";
-import fotos from "./fotos.json";
-import { useEffect, useState } from "react";
 import ModalZoom from "./componentes/ModalZoom";
+import Rodape from "./componentes/Rodape";
+import fotos from "./fotos.json";
 
 const FundoGradiente = styled.div`
 /* Gradiente fundo */
