@@ -1,6 +1,6 @@
 # "Space-App"
 
-![Banner](src/assets/imagens/.png)
+![Banner](src/assets/banner-readme/readme-banner-space-app.png)
 
 > Do curso da Alura:
 React: estilize componentes com Styled Components e manipule arquivos estáticos
